@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext", // Necessário para suporte moderno a módulos
+    "moduleResolution": "NodeNext",
+    
+    /* Configurações para aceitar imports .ts */
+    "allowImportingTsExtensions": true,
+    "noEmit": true, // Obrigatório com a opção acima
+    
+    /* Rigor e Estilo */
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    
+    /* Opções que você já usava */
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedSideEffectImports": true,
+    "esModuleInterop": true
+  }
+}
